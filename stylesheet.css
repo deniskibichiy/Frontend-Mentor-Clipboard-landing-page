@@ -126,6 +126,58 @@ margin: 10px;
     text-align: center;
 }
 
+.companies{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.secondary-navigation ul {
+    list-style-type: none;
+}
+
+.secondary-navigation ul a {
+    text-decoration: none;
+}
+
+.secondary-navigation {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    background-color: hsl(203, 21%, 88%);
+}
+
+.nav-links{
+    display: flex;
+    gap:30px;
+}
+
+.nav-links ul li a{
+margin: 20px;
+color: #413a3a; ;
+}
+
+.nav-links ul li{
+    margin: 20px;
+}
+.secondary-navigation :first-child img{
+    width: 50px;
+    height: 50px;
+}
+
+footer{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p{
+    font-size: 18px;
+}
 /****************************
 Mobile Responsive desing CSS
 ****************************/
